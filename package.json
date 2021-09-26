@@ -1,0 +1,20 @@
+{
+  "name": "node-cache-helper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/cache.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.2",
+    "node-singleflight": "^0.1.2"
+  },
+  "peerDependencies": {
+    "node-cache": ">=5.1.2"
+  }
+}

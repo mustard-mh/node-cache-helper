@@ -1,0 +1,7 @@
+.git*
+*.png
+.DS_Store
+node_modules
+coverage/
+.prettierrc.js
+*.test.js
