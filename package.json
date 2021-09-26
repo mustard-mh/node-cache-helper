@@ -7,9 +7,16 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": "git+ssh://git@github.com:mustard-mh/node-cache-helper.git",
+  "bugs": {
+    "url": "https://github.com/mustard-mh/node-cache-helper/issues"
+  },
+  "homepage": "https://github.com/mustard-mh/node-cache-helper#readme",
+  "keywords": [
+    "cache"
+  ],
+  "author": "mustard-mh",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^27.2.2",
     "node-singleflight": "^0.1.2"
