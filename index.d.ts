@@ -6,7 +6,7 @@ export declare class NodeCacheHelper {
   registerMap: Record<string, Function>;
 
   constructor(config?: Options);
-  register(prefix: string, reloadFn: Function);
+  register(prefix: string, reloadFn: Function, ttl?: number | string);
   resetKey(key: string): Promise<any>;
   get(key: string): Promise<any>;
 }
